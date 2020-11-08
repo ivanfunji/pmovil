@@ -11,6 +11,21 @@
 		margin: 0;
 		padding: 0;
 	}
+	.bg-gray {
+		background-color: #eee;
+	}
+	.bg-red {
+		background-color: #e55;
+	}	
+	.bg-redlight {
+		background-color: #e99;
+	}
+	.bg-redmi {
+		background-color: #ecc;
+	}
+	
+
+
 </style>
 <body>
 
@@ -19,10 +34,173 @@
 	<nav></nav>
 
 	<!-- Contenedor principal -->
-	<div>
+	<div class="container-fluid ">
 			
 		<!-- Anuncio y agenda -->
-		<div></div>
+		<div class="row">
+			<div class="col-sm-12 px-0">
+				<img class="w-100 img-fluid px-0" src="./imgs/coke.jpg" alt="">
+			</div>
+
+			<div class="col-sm-12">
+
+				<div class="row p-3 d-flex justify-content-between">
+					<div class="p-1 col-auto">
+						<h4 class="mx-2 font-weight-bold">Agenda</h4>
+					</div>
+					<div class="p-1 col-auto d-flex align-items-center">
+						<a 
+							data-toggle="collapse"
+							href="#collapsible"
+							role="button"
+							aria-expanded="false"
+							aria-controls="collapsible"
+							class="text-secondary">Ver más directos &#9660;
+						</a>
+					</div>
+				</div>
+
+
+				<!-- Tarjetas -->
+				<div class="d-flex flex-wrap">
+					
+					<div class="col-6 col-sm-3">
+						<div class="p-1">
+							<div class="bg-red row p-2 rounded">
+
+								<div class="col-auto rounded-pill text-white bg-dark">
+									En directo
+								</div>
+
+								<div class=" text-white col-12 pt-3">
+									<span>Noticias
+										<h6 class="font-weight-bold">
+											Utima hora	
+										</h6>
+									</span>
+								</div>
+
+							</div>				
+						</div>
+					</div>
+
+					<div class="col-6 col-sm-5">
+						<div class="p-1">
+							<div class="bg-redlight row p-2 rounded">
+
+								<div class="col-auto rounded-pill text-white bg-dark">
+									Lo mejor
+								</div>
+
+								<div class="col-12 pt-3">
+									<span>Agenda
+										<h6 class="font-weight-bold text-dark">
+											Martes 10	
+										</h6>
+									</span>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="p-1">
+							<div class="bg-redmi row p-2 rounded">
+
+								<div class="col-auto rounded-pill text-white bg-dark">
+									Deportes
+								</div>
+
+								<div class="col-12 pt-3">
+									<span>Agenda
+										<h6 class="font-weight-bold text-dark">
+											Miercoles 11
+										</h6>
+									</span>
+								</div>
+
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+
+
+				<!-- Targetas colapsables -->
+				<div class="collapse" id=collapsible>
+
+					<div class="d-flex flex-wrap">
+						
+						<div class="col-sm-6">
+							<div class="p-1">
+								<div class="bg-gray row p-2 rounded">
+
+									<div class="col-auto rounded-pill text-white bg-dark">
+										Contenido exclusivo
+									</div>
+
+									<div class="col-12 pt-3">
+										<span>Agenda
+											<h6 class="font-weight-bold text-dark">
+												Jueves 12	
+											</h6>
+										</span>
+									</div>
+
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-6">
+							<div class="p-1">
+								<div class="bg-gray row p-2 rounded">
+
+									<div class="col-auto rounded-pill text-white bg-dark">
+										Cosas
+									</div>
+
+									<div class="col-12 pt-3">
+										<span>Agenda
+											<h6 class="font-weight-bold text-dark">
+												Viernes 13	
+											</h6>
+										</span>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6 col-sm-6">
+							<div class="p-1">
+								<div class="bg-gray row p-2 rounded">
+
+									<div class="col-auto rounded-pill text-white bg-dark">
+										Contenido +plus
+									</div>
+
+									<div class="col-12 pt-3">
+										<span>Agenda
+											<h6 class="font-weight-bold text-dark">
+												Sabado 14	
+											</h6>
+										</span>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
 
 		<!-- Noticias principales -->
 		<div></div>
@@ -38,6 +216,11 @@
 
 <!-- pendiente ... -->
 	<footer></footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
 </body>
 </html>
