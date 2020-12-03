@@ -1,2 +1,2 @@
-# pmovil
-Para la materia de programación móvil
+# Uso básico Flexbox - ReactNative
+Colores en bloques
