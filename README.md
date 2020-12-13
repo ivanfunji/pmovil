@@ -1,2 +1,2 @@
 # pmovil
-Para la materia de programación móvil
+Componentes básicos de React Native
